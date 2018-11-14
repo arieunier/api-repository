@@ -3,7 +3,6 @@ import os, logging, psycopg2
 from datetime import datetime 
 import ujson
 import uuid
-from flask_bootstrap import Bootstrap
 from libs import logs
 
 
@@ -15,7 +14,6 @@ WEBPORT = os.getenv('PORT', '5000')
 
 
 app = Flask(__name__, template_folder=TEMPLATES_URL, static_folder=STATIC_URL) 
-Bootstrap(app)
 
 logs.logger_init(loggername='app',
             filename="log.log",

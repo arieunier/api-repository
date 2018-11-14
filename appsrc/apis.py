@@ -1,9 +1,8 @@
 from flask import Flask, request, redirect, url_for, render_template, send_from_directory
-import os, logging, psycopg2
+import os, logging
 from datetime import datetime
 import ujson
 import uuid
-from flask_bootstrap import Bootstrap
 from libs import   utils , logs
 from appsrc import app, logger
 from flask import make_response

@@ -1,4 +1,4 @@
-import os, logging, psycopg2 
+import os, logging 
 
 LOG_LEVEL = os.getenv('LOG_LEVEL','INFO')
 
