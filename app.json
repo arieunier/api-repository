@@ -1,0 +1,22 @@
+{
+    "name": "API Repository",
+    "description" : "api repository just for fun",
+    "repository":"https://github.com/arieunier/api-repository",
+    "keywords": ["python", "postgres", "redis", "connect"],
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "standard-1x"
+      }
+    },
+    "addons": [
+      {"plan": "heroku-postgresql:hobby-dev"},
+      {"plan": "heroku-redis:hobby-dev"}
+    ],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
+  
