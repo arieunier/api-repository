@@ -4,5 +4,3 @@ Jinja2
 urllib3
 ujson
 uuid
-flask-bootstrap
-boto3
