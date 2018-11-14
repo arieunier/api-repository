@@ -1,5 +1,5 @@
 from flask import Flask, request, redirect, url_for, render_template
-import os, logging, psycopg2 
+import os, logging 
 from datetime import datetime 
 import ujson
 import uuid
